@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <link href="lib/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="header">
+        <h2 style="color:white">Company Mailer</h2>
+        <h3 style="color:rgba(80, 83, 80, 0.603);">c</h3>
+    </div>
+    <!-- body -->
+    <div class="cc">
+        <a href="index.html">Sign in</a>
+    </div>
+    <div class="conatiner" id="inputform">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="design">Registration Form</h2>
+            </div>
+            <div class="col-lg-12">
+                <form method="post" action="RegisterServlet">
+                    <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="name" placeholder="Name">
+                                </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="password">
+                        </div>
+                    </div>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Gender</label>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gender" id="gender1"
+                                        value="Female" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Female
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gender" id="gender1"
+                                        value="Male">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        Male
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group row">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">DOB </label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" name="dob" placeholder="@eg.12-23-34">
+                            </div>
+                    </div>
+                    <div class="form-group row">
+                                <label for="inputPassword3" class="col-sm-2 col-form-label">AddressLine </label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="addressLine" placeholder="23/4 xyz...">
+                    </div>
+                    </div>
+                    <div class="form-group row">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">City </label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" name="city" placeholder="@eg.Delhi">
+                    </div>
+                     </div>
+                    <div class="form-group row">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">State </label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" name="state" placeholder="@eg.Delhi">
+                            </div>
+                    </div>
+                    <div class="form-group row">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Country </label>
+                        <div class="col-sm-10">
+                                <select class="custom-select" name="select">
+                                        <option selected>Country</option>
+                                        <option value="1">India</option>
+                                        <option value="2">America</option>
+                                        <option value="3">Japan</option>
+                                      </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Contact </label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="contact" placeholder="123456789">
+                    </div>
+                </div>
+                
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary ">Register</button>
+                            <button type="reset" class="btn btn-primary">Clear</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div><!--col end-->    
+
+    </div><!--container end-->
+    </div>
+  
+</body>
